@@ -1,0 +1,259 @@
+body {
+    margin: 0px;
+    background: #024950;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #003135;
+    padding: 5px;
+    color: #AFDDE5;
+}
+
+nav a {
+
+    color: #AFDDE5;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #003135;
+    padding: 5px;
+    color: #AFDDE5;
+
+}
+
+.bodySection {
+    padding-left: 15px;
+}
+
+.splash {
+    background: #024950;
+    font-family: 'Marvel', sans-serif;
+    font-size: 1.25em;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    color: #AFDDE5;
+}
+
+.splash p {
+
+    color: #AFDDE5;
+
+}
+
+
+.splash img {
+    border: 3px solid #0FA4AF;
+    border-radius: 10px;
+}
+
+hr {
+    height: 4px;
+    background: #964734;
+    font-size: 0;
+    border: 3px;
+}
+
+section h2 {
+    font-family: "Marvel", serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.education {
+
+    background: #024950;
+    font-family: 'Marvel', sans-serif;
+    font-size: 1.25em;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    color: #AFDDE5;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 20px; 
+    padding: 20px;
+    background: #024950;
+}
+
+
+.grid-container > div {
+    background-color: #AFDDE5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.grid-container h2 {
+
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.grid-container dl {
+
+    font-size: 20px;
+
+
+}
+
+.grid-container dd {
+
+    font-size: 15px;
+
+}
+
+.grid-container ul {
+
+    font-size: 17px;
+
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li::before {
+    content: "✔"; 
+    color: #0FA4AF;
+    margin-right: 10px;
+}
+
+dt {
+
+    color: #003135;
+}
+
+dd {
+    margin-left: 20px;
+    font-style: italic;
+    color: #964734;
+}
+
+a {
+    color: #0FA4AF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #964734;
+}
+
+.projects h2{
+
+    margin: 0;
+    text-align: center;
+    padding-bottom: 25px;
+    background: #024950;
+    color: #AFDDE5;
+
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 20px;
+    background:#024950;
+    padding-bottom: 50px;
+}
+
+.card {
+    background-color: #AFDDE5; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+}
+
+.card img {
+    height: auto;
+    border-radius: 10px; 
+    margin-bottom: 15px; 
+}
+
+.card h3 {
+    font-family: 'Marvel', sans-serif;
+    color: #003135;
+    margin-bottom: 10px;
+}
+
+.card ul {
+    list-style: none; 
+    padding-left: 0;
+}
+
+.card ul li {
+    color: #024950;
+    margin-bottom: 5px;
+}
+
+.one-col {
+    display: flex;
+    flex-direction: column; 
+    width: 400px; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #AFDDE5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.one-col {
+
+    margin-top: 15px;
+    background: #0FA4AF;
+
+}
+.one-col label {
+
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.one-col input, .one-col textarea {
+
+    background: #AFDDE5;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 90%;
+}
+
+.submit {
+
+    display: flex;
+    flex-direction: column; 
+    width: 15%; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #0FA4AF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.body {
+
+    background: #024950;
+    text-align: center;
+    color: #AFDDE5;
+
+}
